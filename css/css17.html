@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+            font-size: 16px;
+        }
+
+        body {
+            margin: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .box {
+            margin-bottom: 20px;
+            color: #333;
+            border: 1px solid #ccc;
+        }
+
+        .percent-box {
+            width: 50%;
+            background-color: aquamarine;
+            padding: 10px;
+        }
+
+        .em-box {
+            font-size: 2em;
+            background-color: lightcoral;
+            padding: 1em;
+        }
+
+        .rem-box {
+            font-size: 1.5rem;
+            background-color: green;
+            padding: 1rem;
+        }
+
+        .vh-box {
+            height: 30vh;
+            background-color: peachpuff;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Responsive Units</h2>
+    <div class="box percent-box">
+        <strong>%(percent):</strong>This box width is 50% of the body.
+    </div>
+    <div class="box em-box">
+        <strong>em:</strong> Font-size and padding are based on parent font size.
+    </div>
+    <div class="box rem-box">
+        <strong>rem:</strong>Font-size and padding are based on root (html) font size.
+    </div>
+    <div class="box vh-box">
+        <strong>vh:</strong>Height is 30% of the viewport height.
+    </div>
+</body>
+
+</html>

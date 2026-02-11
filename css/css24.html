@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .transform-box {
+            margin: 100px;
+            width: 100px;
+            height: 100px;
+            background-color: palegreen;
+            transition: all 2s ease;
+            animation: anime 2s;
+        }
+
+        .transform-box:hover {
+            transform: rotate(360deg) scale(1.2);
+            border-radius: 50px;
+            background-color: blueviolet;
+        }
+
+        @keyframes anime {
+            from {
+                transform: translateX(0px);
+            }
+
+            to {
+                transform: translateX(300px);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Transform Example</h2>
+    <div class="transform-box"></div>
+</body>
+
+</html>

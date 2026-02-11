@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .body{
+            align-content: center;
+        }
+        .main{
+            background-color: aquamarine;
+            position: relative;
+            width: 500px;
+            height: 400px;
+        }
+        .div1{
+            background-color:brown;
+            position: absolute;
+            width: 50px;
+            height: 50px;
+
+        }
+        .div2{
+            background-color: yellow;
+            width: 50px;
+            height: 50px;
+
+        }
+        .div3{
+            background-color: violet;
+            width: 50px;
+            height: 50px;
+        } */
+        .box{
+            width:150px;
+            height:150px;
+            position: absolute;
+            color:beige;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box1{
+            background-color: blue;
+            top:40px;
+            left:40px;
+            z-index: 1;
+        }
+        .box2{
+            background-color: tomato;
+            top: 80px;
+            left: 80px;
+            z-index: -1;
+        }
+        .box3{
+            background-color: blueviolet;
+            top:120px;
+            left: 120px;
+            z-index: 2;
+        }
+    </style>
+</head>
+<body>
+    <!-- <h1>Position Contens Task
+    </h1>
+    <div class="main">
+        <div class="div1">
+
+        </div>
+        <div class="div2">
+
+        </div>
+        <div class="div3"> 
+
+        </div>
+    </div> -->
+    <h1>Z-index with negative</h1>
+    <div class="box box1">Z=1</div>
+    <div class="box box2">Z= -1</div>
+    <div class="box box3">Z= 2</div>
+</body>
+</html>
